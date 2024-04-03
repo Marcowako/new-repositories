@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(157, 199, 91);
+    padding-left: 25px;
+    border: solid 25px rgb(149, 214, 133);
+    
+}
+h1{
+    color: #725f40;
+    text-align: center;
+}
+h2{
+    color: rgb(89, 0, 255);
+    margin:0 auto;
+
+}
