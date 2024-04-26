@@ -11,11 +11,10 @@ console.log(footer);
 
 let skills = ["data Entry", "JavaScript", "CSS", "HTML"];
 let skillsSection = document.getElementById("skills");
-let skillsList = document.createElement("ul");
-skillsSection.appendChild(skillsList);
-
+let skillsList = skillsSection.getElementsByTagName("ul");
+console.log(skillsList);
 for (let skill of skills) {
     let skillItem = document.createElement("li");
     skillItem.innerText = skill;
-    skillsList.appendChild(skillItem);
+    skillsList[0].appendChild(skillItem);
 }
