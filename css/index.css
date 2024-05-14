@@ -74,10 +74,10 @@ h2{
     #navigation {
         position:fixed;
         top:0;
-        scroll-padding-top:1ch;
+        scroll-padding-top:1ch; 
         background-color: rgb(76, 224, 108)
     }
-    #About, #Exprience, #skills, #project{
+    #About, #Exprience, #skills, #project {
       scroll-margin-top:100px ;
     }
     p{
